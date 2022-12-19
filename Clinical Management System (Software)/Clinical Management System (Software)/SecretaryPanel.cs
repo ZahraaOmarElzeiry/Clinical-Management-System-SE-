@@ -10,9 +10,11 @@ namespace Clinical_Management_System__Software_
 {
     public partial class SecretaryPanel : Form
     {
-        public SecretaryPanel()
+        int account_id;
+        public SecretaryPanel(int id)
         {
             InitializeComponent();
+            account_id = id;
         }
     }
 }
