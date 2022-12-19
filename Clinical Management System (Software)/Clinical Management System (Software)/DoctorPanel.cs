@@ -10,9 +10,12 @@ namespace Clinical_Management_System__Software_
 {
     public partial class DoctorPanel : Form
     {
-        public DoctorPanel()
+
+        int account_id;
+        public DoctorPanel(int id)
         {
             InitializeComponent();
+            account_id = id;
         }
     }
 }
